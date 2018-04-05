@@ -1,0 +1,33 @@
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    background-color:grey;
+    padding: 0;
+    margin: 0;
+    height: 44px;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+.nav-item {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex: 0 1 10%;
+    width: 50px;
+    padding: 10px;
+    background-color: grey;
+    text-align: center;
+    color:white;
+}
+.nav-item:hover {
+    background-color:blue;
+    transition: 0.7s 0s ease;
+}
